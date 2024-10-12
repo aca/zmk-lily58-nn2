@@ -39,8 +39,8 @@
 //                     |      |      |      |        |  |       |      |       |       |
 // &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                 &trans    &trans    &trans    &trans    &trans    &trans
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                       &trans    &trans    &trans  &MINUS      &EQUAL  &trans
-&trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &LBKT       &RBKT   &trans
+&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                       &trans    &trans    &trans  &kp MINUS      &kp EQUAL  &trans
+&trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &kp LBKT       &kp RBKT   &trans
 &trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &trans      &trans  &trans
 &trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &trans      &trans  &trans
                                                &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans
@@ -57,8 +57,8 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &MINUS      &EQUAL  &trans
-&trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &LBKT       &RBKT   &trans
+&trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &kp MINUS      &kp EQUAL  &trans
+&trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &kp LBKT       &kp RBKT   &trans
 &trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &trans      &trans  &trans
 &trans      &trans           &trans            &trans            &trans       &trans          &trans    &trans    &trans    &trans    &trans  &trans      &trans  &trans
                                               &trans            &trans      &trans    &trans   &trans    &trans      &trans    &trans
